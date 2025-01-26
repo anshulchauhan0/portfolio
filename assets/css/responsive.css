@@ -1,0 +1,243 @@
+/* only small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#hero-area .contents .head-title {
+		font-size: 40px;
+	}
+
+	.services-item .services-content h3 a {
+		font-size: 14px;
+	}
+
+
+
+	.banner_content h1 {
+		color: #fff;
+		font-size: 45px;
+		margin: 5px 0 10px;
+	}
+
+
+}
+
+/* tablets */
+@media (max-width: 991px) {
+	.banner_content h1 {
+		font-size: 30px;
+	}
+
+	.banner_content p {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.banner_content {
+		margin-top: 130px;
+	}
+
+	.about-content {
+		margin-top: 30px;
+	}
+
+	.section-title {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+
+	.section-title:after {
+		content: "";
+		position: absolute;
+		padding: 38px;
+	}
+
+	.services-item {
+		margin-bottom: 30px;
+	}
+
+	.testimonial .description {
+		text-align: center;
+		padding: 20px 0;
+	}
+
+
+}
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+	.section-title {
+		font-size: 30px;
+		margin-bottom: 70px;
+	}
+
+	.services-item .services-content h3 a {
+		font-size: 18px;
+	}
+
+	.services-item {
+		margin-bottom: 30px;
+	}
+
+	#resume .block-title h3 {
+		font-size: 22px;
+	}
+
+	.services-item{
+		padding: 30px;
+	}
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+	.navbar-light .navbar-nav .nav-link {
+		color: #333;
+		padding: 0 0 10px;
+	}
+
+	.funfact {
+		margin-bottom: 30px;
+	}
+
+	.section-title {
+		margin-bottom: 70px;
+	}
+
+	.navbar-brand img {
+		margin: 5px 0;
+	}
+
+	.banner_content h1 {
+		font-size: 50px;
+	}
+
+	.about-image {
+		margin-top: 30px !important;
+	}
+
+	.btn-common {
+		font-size: 12px;
+		padding: 8px 26px;
+	}
+
+	#resume .block {
+		margin-bottom: 30px;
+	}
+
+	.blog-image img {
+		width: 100%;
+	}
+
+	.single_blog {
+		margin-bottom: 30px;
+	}
+
+	.blog-thumb h4 {
+		font-size: 18px;
+	}
+
+	.contact-form-area {
+		padding: 40px 20px;
+	}
+
+	.footer-right-area {
+		margin-bottom: 30px;
+	}
+
+	.services-item{
+		padding: 50px;
+		margin-bottom: 0;
+	}
+
+	
+
+	.navbar-brand p{
+		margin-top: 15px;
+	}
+
+	.navbar-fixed {
+		padding: 10px 0;
+	}
+	.section-padding {
+		padding: 30px 0;
+	}
+
+	.section-title {
+        margin-bottom: 40px;
+    }
+
+	.funfacts-area{
+		padding-top: 40px;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	.nav_containter{
+		margin-inline: 20px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.banner_content h3 {
+		font-size: 18px;
+	}
+
+	.banner_content h1 {
+		font-size: 30px;
+	}
+
+	.about-content h3 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.about-image{
+		text-align: center;
+	}
+
+
+
+	.section-padding {
+		padding: 25px 0;
+	}
+
+	.blog-thumb h4 {
+		font-size: 16px;
+	}
+
+	.contact-form-area h4 {
+		font-size: 14px;
+	}
+
+	.footer-right-contact .single-contact {
+		margin: 10px 0px;
+		padding: 3px 50px;
+	}
+
+	.footer-right-contact .single-contact p {
+		font-size: 12px;
+	}
+
+	.section-title {
+        margin-bottom: 40px;
+    }
+
+	.services-item {
+        margin-inline: 10px;
+        padding: 25px;
+        margin-bottom: 0;
+    }
+
+	.about-image {
+        margin-top: 10px !important;
+    }
+
+	.btn-secondary.banner_btn {
+		background: #fe4f6c;
+		border-color: #fe4f6c;
+		color: #fff;
+		text-transform: capitalize;
+		margin-top: 20px;
+	}
+
+	.navbar-brand p{
+		padding-left: 10px;
+	}
+}
