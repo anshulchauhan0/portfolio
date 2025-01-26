@@ -172,6 +172,11 @@
 	.nav_containter{
 		margin-inline: 20px;
 	}
+
+	.portfolio-item{
+		width: 80%;
+                margin: 0 auto;
+	}
 }
 
 @media only screen and (max-width: 480px) {
