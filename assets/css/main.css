@@ -1491,6 +1491,8 @@ Start Contact Area
 	height: 40px;
 	border-radius: 0;
 	box-shadow: none;
+	color: #fff;
+
 }
 
 .form .form-group input:focus {
@@ -1510,6 +1512,8 @@ Start Contact Area
 	padding-bottom: 5%;
 	border-radius: 0;
 	box-shadow: none;
+	color: #fff;
+
 }
 
 .gray_bg .form .form-group textarea:focus {
