@@ -188,8 +188,8 @@
 						</div>
 
 						<div class="d-flex gap-3">
-							<a href="#" download="Anshul Resume.pdf" class="btn btn-secondary about_btn" data-aos="fade-right" data-aos-delay="100"
-								data-aos-duration="1000">Download CV</a>
+							<a href="Anshul Resume.pdf" onclick="openResume(event)" download="Anshul Resume.pdf" class="btn btn-secondary about_btn"
+								data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">Download CV </a>
 
 							<a href="https://www.linkedin.com/in/anshul-chauhan2024/" target="_blank" class="btn btn-secondary linkdin_btn" data-aos="fade-left" data-aos-delay="200"
 								data-aos-duration="1000"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -1122,6 +1122,24 @@
 	<script>
 		AOS.init();
 	</script>
+
+		<script>
+        function openResume(event) {
+            // Prevent the default anchor behavior
+            event.preventDefault();
+
+            // Open the resume in a new tab
+            window.open(event.currentTarget.href, '_blank');
+
+            // Trigger the download
+            const link = document.createElement('a');
+            link.href = event.currentTarget.href;
+            link.download = 'Anshul Resume.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
 </body>
 
 </html>
