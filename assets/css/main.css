@@ -395,6 +395,11 @@ Start Header Area
 		color: #333;
 	}
 }
+@media only screen and (max-width:600px) {
+	.navbar-light .navbar-toggler{
+		margin-right: 40px !important;
+	}
+}
 
 @media only screen and (max-width:480px) {
 	.navbar-light .navbar-nav .nav-link {
@@ -717,8 +722,9 @@ Start Service Area
 ========================================================================== */
 .services-item {
 	background: transparent;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	box-shadow: 0 1px 25px rgba(255, 255, 255, 0.2);
+	/* border: 1px solid #fe4f6c; */
 	padding: 50px;
 	text-align: center;
 	transition: all 0.3s ease-in-out 0s;
