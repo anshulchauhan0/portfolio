@@ -254,7 +254,7 @@ ol li {
 	z-index: 1;
 }
 
-#portfolio .btn-common{
+#portfolio .btn-common {
 	color: #fe4f6c !important;
 	border-color: #fe4f6c;
 	background: transparent;
@@ -377,6 +377,10 @@ Start Header Area
 	.bg-faded {
 		background: #fff;
 		animation: fadeInDown 1s both 0.2s;
+	}
+
+	.radial-bars .radial-bar{
+		width: 50% !important;
 	}
 }
 
@@ -580,9 +584,9 @@ Start About Area
 	background-color: #e73150;
 }
 
-.linkdin_btn{
+.linkdin_btn {
 	height: 40px;
-	width: 40px ;
+	width: 40px;
 	padding: 15px;
 	border-radius: 50%;
 	border: 2px solid #fe4f6c;
@@ -595,7 +599,7 @@ Start About Area
 
 }
 
-.linkdin_btn:hover{
+.linkdin_btn:hover {
 	background-color: transparent;
 	color: #fe4f6c;
 }
@@ -1131,12 +1135,20 @@ Skills Area
 	width: 70%;
 }
 
-.progress-line.bootstrap span {
+.progress-line.react span {
+	width: 65%;
+}
+
+.progress-line.tailwind span {
 	width: 85%;
 }
 
+.progress-line.bootstrap span {
+	width: 80%;
+}
+
 .progress-line.jquery span {
-	width: 65%;
+	width: 60%;
 }
 
 .progress-line.photoshop span {
@@ -1168,12 +1180,20 @@ Skills Area
 	content: "70%";
 }
 
-.progress-line.bootstrap span::after {
+.progress-line.react span::after {
+	content: "65%";
+}
+
+.progress-line.tailwind span::after {
 	content: "85%";
 }
 
+.progress-line.bootstrap span::after {
+	content: "80%";
+}
+
 .progress-line.jquery span::after {
-	content: "65%";
+	content: "60%";
 }
 
 .progress-line.photoshop span::after {
@@ -1210,7 +1230,7 @@ Skills Area
 }
 
 .radial-bars .radial-bar {
-	width: 50%;
+	width: 25%;
 	height: 170px;
 	margin-bottom: 10px;
 	position: relative;
@@ -1343,6 +1363,75 @@ Start Portfolio Area
 	padding: 10px;
 }
 
+.certBox{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	padding: 10px;
+}
+
+.certBox {
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 12px; */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.certBox img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.certBox:hover img {
+  transform: scale(1.05);
+}
+
+.certBox .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.certBox:hover .overlay {
+  opacity: 1;
+}
+
+.certBox .overlay a {
+  color: #fff;
+  font-size: 1.8rem;
+  background: rgba(255,255,255,0.15);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+.certBox .overlay a .bi-arrows-fullscreen {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.certBox .overlay a:hover {
+  background: #fe4f6c;
+  color: #fff;
+}
+
+.glightbox-container .ginner-container{
+	padding-inline: 15px !important;
+}
+
+
 #portfolio .portfolio-item .shot-item {
 	margin: 0px;
 }
@@ -1363,7 +1452,7 @@ Start Portfolio Area
 }
 
 #portfolio .controls .active {
-	
+
 	color: #fff !important;
 
 	background-color: #fe4f6c;
