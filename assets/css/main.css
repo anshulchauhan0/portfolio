@@ -516,6 +516,11 @@ Start Banner Area
 	color: #fff;
 }
 
+.banner_content p span{
+	font-weight: 600;
+	color: #fe4f6c;
+}
+
 .banner_content h1 {
 	color: #fff;
 	font-size: 50px;
@@ -1293,28 +1298,32 @@ Skills Area
 	animation: animate-path4 1s 1s linear forwards;
 }
 
+/* 1. React JS & UI (90%) */
 @keyframes animate-path1 {
-	100% {
-		stroke-dashoffset: 50;
-	}
+    100% {
+        stroke-dashoffset: 50;
+    }
 }
 
+/* 2. HTML5 / CSS3 / Tailwind (95%) */
 @keyframes animate-path2 {
-	100% {
-		stroke-dashoffset: 175;
-	}
+    100% {
+        stroke-dashoffset: 25;
+    }
 }
 
+/* 3. JavaScript (ES6+) (85%) */
 @keyframes animate-path3 {
-	100% {
-		stroke-dashoffset: 125;
-	}
+    100% {
+        stroke-dashoffset: 75;
+    }
 }
 
+/* 4. Responsive & UI Design (95%) */
 @keyframes animate-path4 {
-	100% {
-		stroke-dashoffset: 75;
-	}
+    100% {
+        stroke-dashoffset: 25;
+    }
 }
 
 .radial-bar .percentage {
